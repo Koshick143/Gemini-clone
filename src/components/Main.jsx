@@ -32,6 +32,17 @@ export default function Main() {
                     <img src={assets.code_icon} alt="" />
                 </div>
             </div>
+            <div className="main-bottom">
+                <div className="search-box">
+                    <input type="text" placeholder='enter prompt' />
+                    <img src={assets.gallery_icon} alt="" />
+                    <img src={assets.mic_icon} alt="" />
+                    <img src={assets.send_icon} alt="" />
+                </div>
+                <p className="bottom-info">
+                    its is not accurate
+                </p>
+            </div>
         </div>
     </div>
   )
