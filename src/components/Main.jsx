@@ -9,15 +9,15 @@ export default function Main() {
   return (
     <div className='main'>
         <div className="nav">
-            <p>Gemini</p>
+            <p>Gyani Baba</p>
             <img src={assets.user_icon} alt="" />
         </div>
         <div className="main-container">
 
             {!showResult?<>
                 <div className="greet">
-            <p><span>Hello, Dev</span></p>
-            <p>How can i help you today</p>    
+            <p><span>Hello, Vaths</span></p>
+            <p>Kya jaana chate ho aaj ?</p>    
             </div> 
             <div className="cards">
                 <div className="card">
